@@ -58,8 +58,8 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 261144202;
-			PBXWorkspaceStateSaveDate = 261144202;
+			PBXPerProjectTemplateStateSaveDate = 261146770;
+			PBXWorkspaceStateSaveDate = 261146770;
 		};
 		perUserProjectItems = {
 			BE7279E80F90BE5B00069C48 = BE7279E80F90BE5B00069C48 /* PBXTextBookmark */;
@@ -120,24 +120,24 @@
 		fRef = BE7DFD070F903B5A00E28E33 /* CreatureGenerator.h */;
 		name = "CreatureGenerator.h: 17";
 		rLen = 0;
-		rLoc = 323;
+		rLoc = 230;
 		rType = 0;
 		vrLen = 344;
 		vrLoc = 0;
 	};
 	BE7DFCD10F90354200E28E33 /* PlayerCharacter.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {919, 406}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 406}}";
 			sepNavSelRange = "{341, 0}";
-			sepNavVisRange = "{25, 434}";
+			sepNavVisRange = "{3, 456}";
 			sepNavWindowFrame = "{{65, 220}, {750, 558}}";
 		};
 	};
 	BE7DFCD20F90354200E28E33 /* PlayerCharacter.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {919, 518}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 518}}";
 			sepNavSelRange = "{315, 0}";
-			sepNavVisRange = "{208, 391}";
+			sepNavVisRange = "{0, 469}";
 			sepNavWindowFrame = "{{387, 170}, {750, 558}}";
 		};
 	};
@@ -194,16 +194,16 @@
 	BE7DFD070F903B5A00E28E33 /* CreatureGenerator.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1011, 381}}";
-			sepNavSelRange = "{323, 0}";
-			sepNavVisRange = "{0, 344}";
+			sepNavSelRange = "{230, 0}";
+			sepNavVisRange = "{0, 237}";
 			sepNavWindowFrame = "{{37, 104}, {750, 558}}";
 		};
 	};
 	BE7DFD080F903B5A00E28E33 /* CreatureGenerator.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {439, 360}}";
-			sepNavSelRange = "{236, 0}";
-			sepNavVisRange = "{145, 136}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 381}}";
+			sepNavSelRange = "{215, 0}";
+			sepNavVisRange = "{0, 222}";
 			sepNavWindowFrame = "{{208, 159}, {750, 558}}";
 		};
 	};
@@ -277,7 +277,7 @@
 		fRef = BE7DFD080F903B5A00E28E33 /* CreatureGenerator.m */;
 		name = "CreatureGenerator.m: 14";
 		rLen = 0;
-		rLoc = 236;
+		rLoc = 215;
 		rType = 0;
 		vrLen = 281;
 		vrLoc = 0;
@@ -287,7 +287,7 @@
 		fRef = BE7DFD070F903B5A00E28E33 /* CreatureGenerator.h */;
 		name = "CreatureGenerator.h: 17";
 		rLen = 0;
-		rLoc = 323;
+		rLoc = 230;
 		rType = 0;
 		vrLen = 344;
 		vrLoc = 0;
