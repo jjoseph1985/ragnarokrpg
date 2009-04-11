@@ -11,9 +11,8 @@
 
 @interface CreatureGenerator : NSObject
 {
-	PlayerCharacter * newCreature = [[PlayerCharacter alloc]initVariables];
+
 }
 
-- (PlayerCharacter *) newCreature;
 
 @end

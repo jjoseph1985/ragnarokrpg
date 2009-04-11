@@ -11,9 +11,5 @@
 
 @implementation CreatureGenerator
 
-- (PlayerCharacter *) newCreature
-{
-	return newCreature;
-}
 
 @end
