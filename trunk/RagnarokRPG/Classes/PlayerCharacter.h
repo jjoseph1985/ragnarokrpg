@@ -25,4 +25,5 @@
 - (void) subtractDamageFromHP:(int) damage;
 - (void) addNewSkillPoints:(int[]) skills;
 
+
 @end
