@@ -25,27 +25,41 @@ int main(int argc, char *argv[]) {
 		[newEnemy initVariables];
 		
 		newEnemy = [CreatureGenerator generateRandomEnemy: newEnemy];
-		
+		NSLog(@"Enemy stats: ");
+		NSLog(@"HP: %i", [newEnemy getHitpoints]);
+		NSLog(@"AP: %i", [newEnemy  getAttackPower]);
+		NSLog(@"MP: %i", [newEnemy getMagicPower]);
+		NSLog(@"D: %i", [newEnemy getDefense]);
+		NSLog(@"m: %i\n", [newEnemy getMana]);
 		
 		PlayerCharacter *hero = [PlayerCharacter new];
 		[hero initVariables];
+		NSLog(@"Hero stats: ");
+		NSLog(@"HP: %i", [hero getHitpoints]);
+		NSLog(@"AP: %i", [hero  getAttackPower]);
+		NSLog(@"MP: %i", [hero getMagicPower]);
+		NSLog(@"D: %i", [hero getDefense]);
+		NSLog(@"m: %i\n", [hero getMana]);
+		
 		
 		[BattleSimulator initializeBattle:hero : newEnemy];
 		
-		NSObject *winner = [BattleSimulator runBattle];
+		PlayerCharacter *new = [BattleSimulator runBattle];
 		
-		int hp = [hero getHitpoints];
+		[hero setHitpoints: [new getHitpoints]];
+		
 		NSString *winnerString = [NSString string];
 		
-		if(winner == hero)
-		{			
-			winnerString = @"we win. Final hero HP: %i",hp;
-			finalString = [NSString stringWithFormat:@"%@ %@", finalString, winner];
+		if([hero getHitpoints] > 0)
+		{
+			winnerString = @"we win. Final hero HP: %i", [hero getHitpoints];
+			NSLog(winnerString);
 		}
 		else{
-			winnerString = @"we lose. Final hero HP: %i", hp;
-			finalString = [NSString stringWithFormat:@"%@ %@", finalString, winner];
+			winnerString = @"we lose. Final hero HP: %i", [hero getHitpoints];
+			NSLog(winnerString);
 		}
+	
 		
 		count++;
 	}

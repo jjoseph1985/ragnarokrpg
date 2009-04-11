@@ -23,14 +23,17 @@
 	enemy = defender;
 }
 
-+ (NSObject *) runBattle
++ (PlayerCharacter *) runBattle
 {
 	int attackerPerSecond = attackerAP - defenderD;
 	int defenderPerSecond = defenderAP - attackerD;
-	
+	NSLog(@"Battle start: \n");
 	while (attackerHP > 0 && defenderHP > 0) {
+		NSLog(@"Attacker HP: %i", attackerHP);
+		NSLog(@"Defender HP: %i", defenderHP);
+		
 		defenderHP -= attackerPerSecond;
-		attackerHP -= defenderPerSecond;			
+		attackerHP -= defenderPerSecond;
 		sleep(1);
 	}
 	
@@ -40,8 +43,7 @@
 		return hero;
 	}
 	else{
-		[hero setHitpoints:attackerHP];
-		return enemy;
+
 	}
 }
 
