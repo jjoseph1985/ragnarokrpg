@@ -16,6 +16,7 @@
 		BE7DFCD30F90354200E28E33 /* PlayerCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7DFCD20F90354200E28E33 /* PlayerCharacter.m */; };
 		BE7DFD090F903B5A00E28E33 /* CreatureGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7DFD080F903B5A00E28E33 /* CreatureGenerator.m */; };
 		BEF49DEB0F90CC64007D4B10 /* EnemyCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF49DEA0F90CC64007D4B10 /* EnemyCharacter.m */; };
+		BEF49EA80F90D8E3007D4B10 /* BattleSimulator.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF49EA70F90D8E3007D4B10 /* BattleSimulator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		BE7DFD080F903B5A00E28E33 /* CreatureGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreatureGenerator.m; sourceTree = "<group>"; };
 		BEF49DE90F90CC64007D4B10 /* EnemyCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnemyCharacter.h; sourceTree = "<group>"; };
 		BEF49DEA0F90CC64007D4B10 /* EnemyCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnemyCharacter.m; sourceTree = "<group>"; };
+		BEF49EA60F90D8E3007D4B10 /* BattleSimulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BattleSimulator.h; sourceTree = "<group>"; };
+		BEF49EA70F90D8E3007D4B10 /* BattleSimulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BattleSimulator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				BE7DFD080F903B5A00E28E33 /* CreatureGenerator.m */,
 				BEF49DE90F90CC64007D4B10 /* EnemyCharacter.h */,
 				BEF49DEA0F90CC64007D4B10 /* EnemyCharacter.m */,
+				BEF49EA60F90D8E3007D4B10 /* BattleSimulator.h */,
+				BEF49EA70F90D8E3007D4B10 /* BattleSimulator.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -172,6 +177,7 @@
 				BE7DFCD30F90354200E28E33 /* PlayerCharacter.m in Sources */,
 				BE7DFD090F903B5A00E28E33 /* CreatureGenerator.m in Sources */,
 				BEF49DEB0F90CC64007D4B10 /* EnemyCharacter.m in Sources */,
+				BEF49EA80F90D8E3007D4B10 /* BattleSimulator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
