@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* RagnarokRPGAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 266}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 339}";
+		};
+	};
+	1D3623250D0F684500981E51 /* RagnarokRPGAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 378}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 423}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* RagnarokRPG */ = {
+		activeExec = 0;
+		executables = (
+			BE1EFB970F9033F1002CE56E /* RagnarokRPG */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = BE1EFB970F9033F1002CE56E /* RagnarokRPG */;
+		activeSDKPreference = iphonesimulator2.2.1;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* RagnarokRPG */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* RagnarokRPG */,
+		);
+		breakpoints = (
+			BE7DFD720F903F4E00E28E33 /* PlayerCharacter.h:10 */,
+		);
+		codeSenseManager = BE1EFB9E0F9033F8002CE56E /* Code sense */;
+		executables = (
+			BE1EFB970F9033F1002CE56E /* RagnarokRPG */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					833,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 261144202;
+			PBXWorkspaceStateSaveDate = 261144202;
+		};
+		perUserProjectItems = {
+			BE7279E80F90BE5B00069C48 = BE7279E80F90BE5B00069C48 /* PBXTextBookmark */;
+			BE7DFCE50F90375900E28E33 = BE7DFCE50F90375900E28E33 /* PBXTextBookmark */;
+			BE7DFCE60F90375900E28E33 = BE7DFCE60F90375900E28E33 /* PBXTextBookmark */;
+			BE7DFCE80F90375900E28E33 = BE7DFCE80F90375900E28E33 /* PBXTextBookmark */;
+			BE7DFCE90F90375900E28E33 = BE7DFCE90F90375900E28E33 /* PBXTextBookmark */;
+			BE7DFCEA0F90375900E28E33 = BE7DFCEA0F90375900E28E33 /* PBXTextBookmark */;
+			BE7DFD160F903C3F00E28E33 = BE7DFD160F903C3F00E28E33 /* PBXTextBookmark */;
+			BE7DFD170F903C3F00E28E33 = BE7DFD170F903C3F00E28E33 /* PBXTextBookmark */;
+			BE7DFD430F903E5C00E28E33 = BE7DFD430F903E5C00E28E33 /* PBXTextBookmark */;
+			BE93A4920F90461A00C786EF = BE93A4920F90461A00C786EF /* PBXTextBookmark */;
+			BE93A4930F90461A00C786EF = BE93A4930F90461A00C786EF /* PBXTextBookmark */;
+			BE93A4940F90461A00C786EF = BE93A4940F90461A00C786EF /* PBXTextBookmark */;
+			BE93A49F0F90461A00C786EF = BE93A49F0F90461A00C786EF /* PBXTextBookmark */;
+		};
+		sourceControlManager = BE1EFB9D0F9033F8002CE56E /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	BE1EFB970F9033F1002CE56E /* RagnarokRPG */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = RagnarokRPG;
+		sourceDirectories = (
+		);
+	};
+	BE1EFB9D0F9033F8002CE56E /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	BE1EFB9E0F9033F8002CE56E /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	BE7279E80F90BE5B00069C48 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE7DFD070F903B5A00E28E33 /* CreatureGenerator.h */;
+		name = "CreatureGenerator.h: 17";
+		rLen = 0;
+		rLoc = 323;
+		rType = 0;
+		vrLen = 344;
+		vrLoc = 0;
+	};
+	BE7DFCD10F90354200E28E33 /* PlayerCharacter.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {919, 406}}";
+			sepNavSelRange = "{341, 0}";
+			sepNavVisRange = "{25, 434}";
+			sepNavWindowFrame = "{{65, 220}, {750, 558}}";
+		};
+	};
+	BE7DFCD20F90354200E28E33 /* PlayerCharacter.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {919, 518}}";
+			sepNavSelRange = "{315, 0}";
+			sepNavVisRange = "{208, 391}";
+			sepNavWindowFrame = "{{387, 170}, {750, 558}}";
+		};
+	};
+	BE7DFCE50F90375900E28E33 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* RagnarokRPGAppDelegate.m */;
+		name = "RagnarokRPGAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 423;
+		vrLoc = 0;
+	};
+	BE7DFCE60F90375900E28E33 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* RagnarokRPGAppDelegate.h */;
+		name = "RagnarokRPGAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 339;
+		vrLoc = 0;
+	};
+	BE7DFCE80F90375900E28E33 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE7DFCD10F90354200E28E33 /* PlayerCharacter.h */;
+		name = "PlayerCharacter.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 232;
+		vrLoc = 0;
+	};
+	BE7DFCE90F90375900E28E33 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* RagnarokRPGAppDelegate.m */;
+		name = "RagnarokRPGAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 423;
+		vrLoc = 0;
+	};
+	BE7DFCEA0F90375900E28E33 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* RagnarokRPGAppDelegate.h */;
+		name = "RagnarokRPGAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 339;
+		vrLoc = 0;
+	};
+	BE7DFD070F903B5A00E28E33 /* CreatureGenerator.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 381}}";
+			sepNavSelRange = "{323, 0}";
+			sepNavVisRange = "{0, 344}";
+			sepNavWindowFrame = "{{37, 104}, {750, 558}}";
+		};
+	};
+	BE7DFD080F903B5A00E28E33 /* CreatureGenerator.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {439, 360}}";
+			sepNavSelRange = "{236, 0}";
+			sepNavVisRange = "{145, 136}";
+			sepNavWindowFrame = "{{208, 159}, {750, 558}}";
+		};
+	};
+	BE7DFD160F903C3F00E28E33 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE7DFD070F903B5A00E28E33 /* CreatureGenerator.h */;
+		name = "CreatureGenerator.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 236;
+		vrLoc = 0;
+	};
+	BE7DFD170F903C3F00E28E33 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE7DFD080F903B5A00E28E33 /* CreatureGenerator.m */;
+		name = "CreatureGenerator.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 221;
+		vrLoc = 0;
+	};
+	BE7DFD430F903E5C00E28E33 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE7DFCD20F90354200E28E33 /* PlayerCharacter.m */;
+		name = "PlayerCharacter.m: 13";
+		rLen = 0;
+		rLoc = 208;
+		rType = 0;
+		vrLen = 300;
+		vrLoc = 176;
+	};
+	BE7DFD720F903F4E00E28E33 /* PlayerCharacter.h:10 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = BE7DFCD10F90354200E28E33 /* PlayerCharacter.h */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 10;
+		modificationTime = 261111630.420331;
+		state = 1;
+	};
+	BE93A4920F90461A00C786EF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE7DFCD20F90354200E28E33 /* PlayerCharacter.m */;
+		name = "PlayerCharacter.m: 20";
+		rLen = 0;
+		rLoc = 315;
+		rType = 0;
+		vrLen = 391;
+		vrLoc = 208;
+	};
+	BE93A4930F90461A00C786EF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE7DFCD10F90354200E28E33 /* PlayerCharacter.h */;
+		name = "PlayerCharacter.h: 23";
+		rLen = 0;
+		rLoc = 341;
+		rType = 0;
+		vrLen = 434;
+		vrLoc = 25;
+	};
+	BE93A4940F90461A00C786EF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE7DFD080F903B5A00E28E33 /* CreatureGenerator.m */;
+		name = "CreatureGenerator.m: 14";
+		rLen = 0;
+		rLoc = 236;
+		rType = 0;
+		vrLen = 281;
+		vrLoc = 0;
+	};
+	BE93A49F0F90461A00C786EF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE7DFD070F903B5A00E28E33 /* CreatureGenerator.h */;
+		name = "CreatureGenerator.h: 17";
+		rLen = 0;
+		rLoc = 323;
+		rType = 0;
+		vrLen = 344;
+		vrLoc = 0;
+	};
+}
