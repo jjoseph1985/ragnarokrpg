@@ -27,5 +27,11 @@
 - (void) setAttackPower: (int) ap;
 - (void) setDefense: (int) d;
 - (void) setMagicPower: (int) mp;
+- (int) getHitpoints;
+- (int) getMana;
+- (int) getAttackPower;
+- (int) getDefense;
+- (int) getMagicPower;
+
 
 @end

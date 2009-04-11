@@ -50,4 +50,29 @@
 	magicpower = mp;
 }
 
+- (int) getHitpoints
+{
+	return hitpoints;
+}
+
+- (int) getMana
+{
+	return mana;
+}
+
+- (int) getAttackPower
+{
+	return attackpower;
+}
+
+- (int) getDefense
+{
+	return defense;
+}
+
+- (int) getMagicPower
+{
+	return magicpower;
+}
+
 @end

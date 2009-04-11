@@ -24,15 +24,56 @@
 	hitpoints -= damage;
 }
 
-//Assume array is in order same as above
-- (void) addNewSkillPoints:(int[]) skills
+- (void) setHitpoints: (int) hp
 {
-	hitpoints += skills[0];
-	mana += skills[1];
-	attackpower += skills[2];
-	defense += skills[3];
-	magicpower += skills[4];
+	hitpoints = hp;
 }
+
+- (void) setMana: (int) m
+{
+	mana = m;
+}
+
+- (void) setAttackPower: (int) ap
+{
+	attackpower = ap;
+}
+
+- (void) setDefense: (int) d
+{
+	defense = d;
+}
+
+- (void) setMagicPower: (int) mp
+{
+	magicpower = mp;
+}
+
+- (int) getHitpoints
+{
+	return hitpoints;
+}
+
+- (int) getMana
+{
+	return mana;
+}
+
+- (int) getAttackPower
+{
+	return attackpower;
+}
+
+- (int) getDefense
+{
+	return defense;
+}
+
+- (int) getMagicPower
+{
+	return magicpower;
+}
+
 
 
 @end
