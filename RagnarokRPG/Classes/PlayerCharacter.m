@@ -34,4 +34,5 @@
 	magicpower += skills[4];
 }
 
+
 @end

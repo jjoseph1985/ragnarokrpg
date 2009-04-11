@@ -7,12 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "EnemyCharacter.h"
 
 @interface CreatureGenerator : NSObject
 {
 
 }
 
++ (EnemyCharacter *) generateRandomEnemy: (EnemyCharacter *) enemy;
 
 @end

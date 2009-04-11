@@ -11,5 +11,24 @@
 
 @implementation CreatureGenerator
 
++ (EnemyCharacter *) generateRandomEnemy: (EnemyCharacter *) enemy
+{
+	//health mana d6
+	int h = rand() % 5;
+	int m = rand() % 5;
+	
+	//magic and attack d3
+	int mp = rand() % 2;
+	int ap = rand() % 2;
+	
+	
+	[enemy setHitpoints: h];
+	[enemy setMana:m];
+	[enemy setMagicPower:mp];
+	[enemy setAttackPower:ap];
+	
+	
+	return enemy;
+}
 
 @end

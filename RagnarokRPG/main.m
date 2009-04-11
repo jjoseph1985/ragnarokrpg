@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "PlayerCharacter.h"
+#import "CreatureGenerator.h"
 
 int main(int argc, char *argv[]) {
     
@@ -15,9 +16,11 @@ int main(int argc, char *argv[]) {
     int retVal = UIApplicationMain(argc, argv, nil, nil);
     [pool release];
 	
-	PlayerCharacter *newCreature = [PlayerCharacter new];
+	EnemyCharacter *newEnemy = [EnemyCharacter new];	
+	[newEnemy initVariables];
 	
-	[newCreature initVariables];
+	newEnemy = [CreatureGenerator generateRandomEnemy: newEnemy];
+	
 	
     return retVal;
 }
