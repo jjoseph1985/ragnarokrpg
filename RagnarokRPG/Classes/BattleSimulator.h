@@ -25,6 +25,6 @@ static EnemyCharacter *enemy;
 
 + (void) initializeBattle: (PlayerCharacter *) attacker: (EnemyCharacter *) defender;
 
-+ (NSObject *) runBattle;
++ (PlayerCharacter *) runBattle;
 
 @end
