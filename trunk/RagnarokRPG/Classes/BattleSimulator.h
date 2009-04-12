@@ -17,13 +17,13 @@ static int defenderAP;
 static int attackerD;
 static int defenderD;
 static PlayerCharacter *hero;
-static EnemyCharacter *enemy;
+static NSArray *enemies;
 
 @interface BattleSimulator : NSObject {
 	
 }
 
-+ (void) initializeBattle: (PlayerCharacter *) attacker: (EnemyCharacter *) defender;
++ (void) initializeBattle: (PlayerCharacter *) attacker: (NSArray *) defenders;
 
 + (PlayerCharacter *) runBattle;
 
