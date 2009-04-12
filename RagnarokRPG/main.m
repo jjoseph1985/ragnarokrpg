@@ -32,6 +32,30 @@ int main(int argc, char *argv[]) {
 		NSLog(@"D: %i", [newEnemy getDefense]);
 		NSLog(@"m: %i\n", [newEnemy getMana]);
 		
+		EnemyCharacter *newEnemy2 = [EnemyCharacter new];	
+		[newEnemy2 initVariables];
+		
+		newEnemy2 = [CreatureGenerator generateRandomEnemy: newEnemy2];
+		NSLog(@"Enemy stats: ");
+		NSLog(@"HP: %i", [newEnemy2 getHitpoints]);
+		NSLog(@"AP: %i", [newEnemy2  getAttackPower]);
+		NSLog(@"MP: %i", [newEnemy2 getMagicPower]);
+		NSLog(@"D: %i", [newEnemy2 getDefense]);
+		NSLog(@"m: %i\n", [newEnemy2 getMana]);
+		
+		EnemyCharacter *newEnemy3 = [EnemyCharacter new];	
+		[newEnemy3 initVariables];
+		
+		newEnemy3 = [CreatureGenerator generateRandomEnemy: newEnemy3];
+		NSLog(@"Enemy stats: ");
+		NSLog(@"HP: %i", [newEnemy3 getHitpoints]);
+		NSLog(@"AP: %i", [newEnemy3  getAttackPower]);
+		NSLog(@"MP: %i", [newEnemy3 getMagicPower]);
+		NSLog(@"D: %i", [newEnemy3 getDefense]);
+		NSLog(@"m: %i\n", [newEnemy3 getMana]);
+	
+		NSArray *enemies = [NSArray arrayWithObjects: newEnemy, newEnemy2, newEnemy3, nil]; 
+		
 		PlayerCharacter *hero = [PlayerCharacter new];
 		[hero initVariables];
 		NSLog(@"Hero stats: ");
@@ -42,22 +66,20 @@ int main(int argc, char *argv[]) {
 		NSLog(@"m: %i\n", [hero getMana]);
 		
 		
-		[BattleSimulator initializeBattle:hero : newEnemy];
+		[BattleSimulator initializeBattle:hero : enemies];
 		
 		PlayerCharacter *new = [BattleSimulator runBattle];
 		
-		[hero setHitpoints: [new getHitpoints]];
+		int newHp = [new getHitpoints];
 		
-		NSString *winnerString = [NSString string];
+		[hero setHitpoints: newHp];
 		
-		if([hero getHitpoints] > 0)
+		if(newHp > 0)
 		{
-			winnerString = @"we win. Final hero HP: %i", [hero getHitpoints];
-			NSLog(winnerString);
+			NSLog(@"we win. Final hero HP: %i", [hero getHitpoints]);
 		}
 		else{
-			winnerString = @"we lose. Final hero HP: %i", [hero getHitpoints];
-			NSLog(winnerString);
+			NSLog(@"we lose. Final hero HP: %i", [hero getHitpoints]);
 		}
 	
 		

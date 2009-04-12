@@ -11,8 +11,13 @@
 
 @implementation BattleSimulator
 
-+ (void) initializeBattle: (PlayerCharacter *) attacker: (EnemyCharacter *) defender
++ (void) initializeBattle: (PlayerCharacter *) attacker: (NSArray *) defenders
 {
+	NSArray *defenderHPs;
+	for(int i = 0; i < [defenders  count]; i++)
+	{
+		
+	}
 	attackerHP = [attacker getHitpoints];
 	defenderHP = [defender getHitpoints];
 	attackerAP = [attacker getAttackPower];
@@ -20,7 +25,7 @@
 	attackerD = [attacker getDefense];
 	defenderD = [defender getDefense];
 	hero = attacker;
-	enemy = defender;
+	enemies = [NSArray arrayWithArray:defenders];
 }
 
 + (PlayerCharacter *) runBattle
@@ -38,13 +43,8 @@
 	}
 	
 	
-	if(attackerHP > 0){
-		[hero setHitpoints:attackerHP];
-		return hero;
-	}
-	else{
-
-	}
+	[hero setHitpoints:attackerHP];
+	return hero;
 }
 
 @end
