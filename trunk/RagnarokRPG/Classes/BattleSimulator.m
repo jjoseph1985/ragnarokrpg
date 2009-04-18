@@ -13,35 +13,36 @@
 
 + (void) initializeBattle: (PlayerCharacter *) attacker: (NSArray *) defenders
 {
-	NSArray *defenderHPs;
 	for(int i = 0; i < [defenders  count]; i++)
 	{
-		
+		EnemyCharacter *enemy = [defenders objectAtIndex:i];
+		defenderHPs[i] =  [enemy getHitpoints];
+		defenderAPs[i] = [enemy getAttackPower];
+		defenderDs[i] = [enemy getDefense];		
 	}
+	
 	attackerHP = [attacker getHitpoints];
-	defenderHP = [defender getHitpoints];
 	attackerAP = [attacker getAttackPower];
-	defenderAP = [defender getAttackPower];
 	attackerD = [attacker getDefense];
-	defenderD = [defender getDefense];
 	hero = attacker;
 	enemies = [NSArray arrayWithArray:defenders];
 }
 
 + (PlayerCharacter *) runBattle
 {
-	int attackerPerSecond = attackerAP - defenderD;
-	int defenderPerSecond = defenderAP - attackerD;
-	NSLog(@"Battle start: \n");
-	while (attackerHP > 0 && defenderHP > 0) {
-		NSLog(@"Attacker HP: %i", attackerHP);
-		NSLog(@"Defender HP: %i", defenderHP);
-		
-		defenderHP -= attackerPerSecond;
-		attackerHP -= defenderPerSecond;
-		sleep(1);
+	for(int i = 0; i < [enemies count]; i++){
+		int attackerPerSecond = attackerAP - defenderDs[i];
+		int defenderPerSecond = defenderAPs[i] - attackerD;
+		NSLog(@"Battle start: \n");
+		while (attackerHP > 0 && defenderHPs[i] > 0) {
+			NSLog(@"Attacker HP: %i", attackerHP);
+			NSLog(@"Defender HP: %i", defenderHPs[i]);
+			
+			defenderHPs[i] -= attackerPerSecond;
+			attackerHP -= defenderPerSecond;
+			sleep(1);
+		}
 	}
-	
 	
 	[hero setHitpoints:attackerHP];
 	return hero;

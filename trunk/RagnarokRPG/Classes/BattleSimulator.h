@@ -11,11 +11,11 @@
 #import "EnemyCharacter.h"
 
 static int attackerHP;
-static int defenderHP;
 static int attackerAP;
-static int defenderAP;
 static int attackerD;
-static int defenderD;
+static int defenderHPs[3];
+static int defenderAPs[3];
+static int defenderDs[3];
 static PlayerCharacter *hero;
 static NSArray *enemies;
 
