@@ -11,6 +11,8 @@
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		1F83715F0F99752500C12F1E /* Requital RPG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F83715E0F99752500C12F1E /* Requital RPG.jpg */; };
+		1F8371870F99773C00C12F1E /* RagnarokMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8371860F99773C00C12F1E /* RagnarokMain.m */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		BE7DFCD30F90354200E28E33 /* PlayerCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7DFCD20F90354200E28E33 /* PlayerCharacter.m */; };
@@ -25,6 +27,9 @@
 		1D3623250D0F684500981E51 /* RagnarokRPGAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RagnarokRPGAppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* RagnarokRPG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RagnarokRPG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1F83715E0F99752500C12F1E /* Requital RPG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Requital RPG.jpg"; path = "../Requital RPG.jpg"; sourceTree = SOURCE_ROOT; };
+		1F8371850F99773C00C12F1E /* RagnarokMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RagnarokMain.h; sourceTree = "<group>"; };
+		1F8371860F99773C00C12F1E /* RagnarokMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RagnarokMain.m; sourceTree = "<group>"; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -67,6 +72,8 @@
 				BEF49DEA0F90CC64007D4B10 /* EnemyCharacter.m */,
 				BEF49EA60F90D8E3007D4B10 /* BattleSimulator.h */,
 				BEF49EA70F90D8E3007D4B10 /* BattleSimulator.m */,
+				1F8371850F99773C00C12F1E /* RagnarokMain.h */,
+				1F8371860F99773C00C12F1E /* RagnarokMain.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -103,6 +110,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1F83715E0F99752500C12F1E /* Requital RPG.jpg */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 			);
@@ -162,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				1F83715F0F99752500C12F1E /* Requital RPG.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +187,7 @@
 				BE7DFD090F903B5A00E28E33 /* CreatureGenerator.m in Sources */,
 				BEF49DEB0F90CC64007D4B10 /* EnemyCharacter.m in Sources */,
 				BEF49EA80F90D8E3007D4B10 /* BattleSimulator.m in Sources */,
+				1F8371870F99773C00C12F1E /* RagnarokMain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
