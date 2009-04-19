@@ -55,21 +55,13 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
-	1F0954060F9BB64300E4CC41 /* PlayerCharacter.m */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {552, 980}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 585}";
-		};
-	};
-	1F0954090F9BB64300E4CC41 /* EnemyCharacter.h */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {552, 613}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 673}";
-		};
-	};
 	1F09540B0F9BB64300E4CC41 /* BattleSimulator.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = BattleSimulator.h;
+		path = /Users/jeremypjoseph/Desktop/BoomCityGames/RagnarokRPG/Classes/BattleSimulator.h;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {439, 434}}";
 			sepNavSelRange = "{237, 23}";
@@ -430,6 +422,16 @@
 		vrLen = 1254;
 		vrLoc = 0;
 	};
+	1F0954540F9BBB1000E4CC41 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* RagnarokRPGViewBasedViewController.h */;
+		name = "RagnarokRPGViewBasedViewController.h: 16";
+		rLen = 0;
+		rLoc = 370;
+		rType = 0;
+		vrLen = 391;
+		vrLoc = 176;
+	};
 	28D7ACF60DDB3853001CB0EB /* RagnarokRPGViewBasedViewController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {439, 392}}";
@@ -440,9 +442,9 @@
 	};
 	28D7ACF70DDB3853001CB0EB /* RagnarokRPGViewBasedViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1217, 2282}}";
-			sepNavSelRange = "{3373, 0}";
-			sepNavVisRange = "{0, 1254}";
+			sepNavIntBoundsRect = "{{0, 0}, {881, 2518}}";
+			sepNavSelRange = "{284, 0}";
+			sepNavVisRange = "{0, 948}";
 			sepNavWindowFrame = "{{38, 129}, {1046, 873}}";
 		};
 	};
@@ -521,6 +523,7 @@
 			1F0954420F9BB87B00E4CC41 /* PBXTextBookmark */ = 1F0954420F9BB87B00E4CC41 /* PBXTextBookmark */;
 			1F0954430F9BB8CF00E4CC41 /* PBXTextBookmark */ = 1F0954430F9BB8CF00E4CC41 /* PBXTextBookmark */;
 			1F0954440F9BB94000E4CC41 /* PBXTextBookmark */ = 1F0954440F9BB94000E4CC41 /* PBXTextBookmark */;
+			1F0954540F9BBB1000E4CC41 /* PBXTextBookmark */ = 1F0954540F9BBB1000E4CC41 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 1F0953A80F9BA8F500E4CC41 /* Source Control */;
 		userBuildSettings = {
