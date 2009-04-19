@@ -14,10 +14,10 @@
 		1F0953C60F9BAADE00E4CC41 /* Requital RPG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0953C50F9BAADE00E4CC41 /* Requital RPG.jpg */; };
 		1F0953C80F9BAB2F00E4CC41 /* sshot075.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0953C70F9BAB2F00E4CC41 /* sshot075.jpg */; };
 		1F0953E80F9BAF7800E4CC41 /* Falcon_Eye.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0953E70F9BAF7800E4CC41 /* Falcon_Eye.jpg */; };
-		1F09540D0F9BB64300E4CC41 /* PlayerCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0954060F9BB64300E4CC41 /* PlayerCharacter.m */; };
-		1F09540E0F9BB64300E4CC41 /* CreatureGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0954080F9BB64300E4CC41 /* CreatureGenerator.m */; };
-		1F09540F0F9BB64300E4CC41 /* EnemyCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F09540A0F9BB64300E4CC41 /* EnemyCharacter.m */; };
-		1F0954100F9BB64300E4CC41 /* BattleSimulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F09540C0F9BB64300E4CC41 /* BattleSimulator.m */; };
+		1F09544D0F9BBAE500E4CC41 /* EnemyCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0954480F9BBAE500E4CC41 /* EnemyCharacter.m */; };
+		1F09544E0F9BBAE500E4CC41 /* BattleSimulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0954490F9BBAE500E4CC41 /* BattleSimulator.m */; };
+		1F09544F0F9BBAE500E4CC41 /* CreatureGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F09544C0F9BBAE500E4CC41 /* CreatureGenerator.m */; };
+		1F0954520F9BBAEB00E4CC41 /* PlayerCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0954500F9BBAEB00E4CC41 /* PlayerCharacter.m */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		2899E5220DE3E06400AC0155 /* RagnarokRPGViewBasedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* RagnarokRPGViewBasedViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
@@ -33,14 +33,14 @@
 		1F0953C50F9BAADE00E4CC41 /* Requital RPG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Requital RPG.jpg"; path = "../Requital RPG.jpg"; sourceTree = SOURCE_ROOT; };
 		1F0953C70F9BAB2F00E4CC41 /* sshot075.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sshot075.jpg; path = ../sshot075.jpg; sourceTree = SOURCE_ROOT; };
 		1F0953E70F9BAF7800E4CC41 /* Falcon_Eye.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Falcon_Eye.jpg; path = ../Falcon_Eye.jpg; sourceTree = SOURCE_ROOT; };
-		1F0954050F9BB64300E4CC41 /* PlayerCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayerCharacter.h; path = ../RagnarokRPG/Classes/PlayerCharacter.h; sourceTree = SOURCE_ROOT; };
-		1F0954060F9BB64300E4CC41 /* PlayerCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayerCharacter.m; path = ../RagnarokRPG/Classes/PlayerCharacter.m; sourceTree = SOURCE_ROOT; };
-		1F0954070F9BB64300E4CC41 /* CreatureGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreatureGenerator.h; path = ../RagnarokRPG/Classes/CreatureGenerator.h; sourceTree = SOURCE_ROOT; };
-		1F0954080F9BB64300E4CC41 /* CreatureGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreatureGenerator.m; path = ../RagnarokRPG/Classes/CreatureGenerator.m; sourceTree = SOURCE_ROOT; };
-		1F0954090F9BB64300E4CC41 /* EnemyCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EnemyCharacter.h; path = ../RagnarokRPG/Classes/EnemyCharacter.h; sourceTree = SOURCE_ROOT; };
-		1F09540A0F9BB64300E4CC41 /* EnemyCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EnemyCharacter.m; path = ../RagnarokRPG/Classes/EnemyCharacter.m; sourceTree = SOURCE_ROOT; };
-		1F09540B0F9BB64300E4CC41 /* BattleSimulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BattleSimulator.h; path = ../RagnarokRPG/Classes/BattleSimulator.h; sourceTree = SOURCE_ROOT; };
-		1F09540C0F9BB64300E4CC41 /* BattleSimulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BattleSimulator.m; path = ../RagnarokRPG/Classes/BattleSimulator.m; sourceTree = SOURCE_ROOT; };
+		1F0954470F9BBAE500E4CC41 /* CreatureGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreatureGenerator.h; sourceTree = "<group>"; };
+		1F0954480F9BBAE500E4CC41 /* EnemyCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnemyCharacter.m; sourceTree = "<group>"; };
+		1F0954490F9BBAE500E4CC41 /* BattleSimulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BattleSimulator.m; sourceTree = "<group>"; };
+		1F09544A0F9BBAE500E4CC41 /* EnemyCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnemyCharacter.h; sourceTree = "<group>"; };
+		1F09544B0F9BBAE500E4CC41 /* BattleSimulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BattleSimulator.h; sourceTree = "<group>"; };
+		1F09544C0F9BBAE500E4CC41 /* CreatureGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreatureGenerator.m; sourceTree = "<group>"; };
+		1F0954500F9BBAEB00E4CC41 /* PlayerCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerCharacter.m; sourceTree = "<group>"; };
+		1F0954510F9BBAEB00E4CC41 /* PlayerCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerCharacter.h; sourceTree = "<group>"; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2899E5210DE3E06400AC0155 /* RagnarokRPGViewBasedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RagnarokRPGViewBasedViewController.xib; sourceTree = "<group>"; };
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
@@ -68,15 +68,15 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				1F0954470F9BBAE500E4CC41 /* CreatureGenerator.h */,
+				1F0954480F9BBAE500E4CC41 /* EnemyCharacter.m */,
+				1F0954500F9BBAEB00E4CC41 /* PlayerCharacter.m */,
+				1F0954510F9BBAEB00E4CC41 /* PlayerCharacter.h */,
+				1F0954490F9BBAE500E4CC41 /* BattleSimulator.m */,
+				1F09544A0F9BBAE500E4CC41 /* EnemyCharacter.h */,
+				1F09544B0F9BBAE500E4CC41 /* BattleSimulator.h */,
+				1F09544C0F9BBAE500E4CC41 /* CreatureGenerator.m */,
 				1D3623240D0F684500981E51 /* RagnarokRPGViewBasedAppDelegate.h */,
-				1F0954050F9BB64300E4CC41 /* PlayerCharacter.h */,
-				1F0954060F9BB64300E4CC41 /* PlayerCharacter.m */,
-				1F0954070F9BB64300E4CC41 /* CreatureGenerator.h */,
-				1F0954080F9BB64300E4CC41 /* CreatureGenerator.m */,
-				1F0954090F9BB64300E4CC41 /* EnemyCharacter.h */,
-				1F09540A0F9BB64300E4CC41 /* EnemyCharacter.m */,
-				1F09540B0F9BB64300E4CC41 /* BattleSimulator.h */,
-				1F09540C0F9BB64300E4CC41 /* BattleSimulator.m */,
 				1D3623250D0F684500981E51 /* RagnarokRPGViewBasedAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* RagnarokRPGViewBasedViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* RagnarokRPGViewBasedViewController.m */,
@@ -196,10 +196,10 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* RagnarokRPGViewBasedAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* RagnarokRPGViewBasedViewController.m in Sources */,
-				1F09540D0F9BB64300E4CC41 /* PlayerCharacter.m in Sources */,
-				1F09540E0F9BB64300E4CC41 /* CreatureGenerator.m in Sources */,
-				1F09540F0F9BB64300E4CC41 /* EnemyCharacter.m in Sources */,
-				1F0954100F9BB64300E4CC41 /* BattleSimulator.m in Sources */,
+				1F09544D0F9BBAE500E4CC41 /* EnemyCharacter.m in Sources */,
+				1F09544E0F9BBAE500E4CC41 /* BattleSimulator.m in Sources */,
+				1F09544F0F9BBAE500E4CC41 /* CreatureGenerator.m in Sources */,
+				1F0954520F9BBAEB00E4CC41 /* PlayerCharacter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
