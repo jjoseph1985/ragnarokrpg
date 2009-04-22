@@ -1,8 +1,0 @@
-/Users/jeremypjoseph/Desktop/BoomCityGames/RagnarokRPGViewBased/../RagnarokRPG/Classes/BattleSimulator.h:13: warning: 'attackerHP' defined but not used
-/Users/jeremypjoseph/Desktop/BoomCityGames/RagnarokRPGViewBased/../RagnarokRPG/Classes/BattleSimulator.h:14: warning: 'attackerAP' defined but not used
-/Users/jeremypjoseph/Desktop/BoomCityGames/RagnarokRPGViewBased/../RagnarokRPG/Classes/BattleSimulator.h:15: warning: 'attackerD' defined but not used
-/Users/jeremypjoseph/Desktop/BoomCityGames/RagnarokRPGViewBased/../RagnarokRPG/Classes/BattleSimulator.h:16: warning: 'defenderHPs' defined but not used
-/Users/jeremypjoseph/Desktop/BoomCityGames/RagnarokRPGViewBased/../RagnarokRPG/Classes/BattleSimulator.h:17: warning: 'defenderAPs' defined but not used
-/Users/jeremypjoseph/Desktop/BoomCityGames/RagnarokRPGViewBased/../RagnarokRPG/Classes/BattleSimulator.h:18: warning: 'defenderDs' defined but not used
-/Users/jeremypjoseph/Desktop/BoomCityGames/RagnarokRPGViewBased/../RagnarokRPG/Classes/BattleSimulator.h:19: warning: 'hero' defined but not used
-/Users/jeremypjoseph/Desktop/BoomCityGames/RagnarokRPGViewBased/../RagnarokRPG/Classes/BattleSimulator.h:20: warning: 'enemies' defined but not used
