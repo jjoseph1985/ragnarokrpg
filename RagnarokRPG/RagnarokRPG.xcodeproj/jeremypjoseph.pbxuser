@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* RagnarokRPGAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {595, 323}}";
+			sepNavSelRange = "{220, 0}";
+			sepNavVisRange = "{0, 303}";
+		};
+	};
+	1D3623250D0F684500981E51 /* RagnarokRPGAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {595, 406}}";
+			sepNavSelRange = "{181, 0}";
+			sepNavVisRange = "{92, 624}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* RagnarokRPG */ = {
+		activeExec = 0;
+		executables = (
+			1F27719D0F9EAE98001084B0 /* RagnarokRPG */,
+		);
+	};
+	1F27719D0F9EAE98001084B0 /* RagnarokRPG */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = RagnarokRPG;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+	};
+	1F2771A90F9EAE9C001084B0 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	1F2771AA0F9EAE9C001084B0 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	1F2772B00F9EB0D9001084B0 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			LSRequiresIPhoneOS,
+		);
+		name = /Users/jeremypjoseph/Desktop/BoomCityGames/RagnarokRPG/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	1F2772B10F9EB0D9001084B0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 15";
+		rLen = 0;
+		rLoc = 348;
+		rType = 0;
+		vrLen = 387;
+		vrLoc = 0;
+	};
+	1F2772B40F9EB0D9001084B0 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			LSRequiresIPhoneOS,
+		);
+		name = /Users/jeremypjoseph/Desktop/BoomCityGames/RagnarokRPG/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	1F2772B50F9EB0D9001084B0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 15";
+		rLen = 0;
+		rLoc = 348;
+		rType = 0;
+		vrLen = 387;
+		vrLoc = 0;
+	};
+	1F2772B60F9EB0D9001084B0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* RagnarokRPGAppDelegate.h */;
+		name = "RagnarokRPGAppDelegate.h: 14";
+		rLen = 0;
+		rLoc = 296;
+		rType = 0;
+		vrLen = 261;
+		vrLoc = 0;
+	};
+	1F2772BB0F9EB1A0001084B0 /* MenuScene.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {595, 323}}";
+			sepNavSelRange = "{358, 0}";
+			sepNavVisRange = "{0, 364}";
+		};
+	};
+	1F2772BC0F9EB1A0001084B0 /* MenuScene.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {595, 1932}}";
+			sepNavSelRange = "{1273, 0}";
+			sepNavVisRange = "{1123, 674}";
+		};
+	};
+	1F2772C30F9EB200001084B0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* RagnarokRPGAppDelegate.m */;
+		name = "RagnarokRPGAppDelegate.m: 11";
+		rLen = 0;
+		rLoc = 205;
+		rType = 0;
+		vrLen = 314;
+		vrLoc = 0;
+	};
+	1F2772C50F9EB200001084B0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F2772BB0F9EB1A0001084B0 /* MenuScene.h */;
+		name = "MenuScene.h: 18";
+		rLen = 0;
+		rLoc = 363;
+		rType = 0;
+		vrLen = 317;
+		vrLoc = 0;
+	};
+	1F2772C60F9EB200001084B0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F2772BC0F9EB1A0001084B0 /* MenuScene.m */;
+		name = "MenuScene.m: 14";
+		rLen = 0;
+		rLoc = 394;
+		rType = 0;
+		vrLen = 598;
+		vrLoc = 38;
+	};
+	1F2772D30F9EB2D9001084B0 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 1F2772CD0F9EB2D1001084B0 /* menu.png */;
+	};
+	1F2772DA0F9EB2D9001084B0 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 1F2772CD0F9EB2D1001084B0 /* menu.png */;
+	};
+	1F2772DE0F9EB398001084B0 /* GameScene.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {595, 323}}";
+			sepNavSelRange = "{274, 0}";
+			sepNavVisRange = "{0, 274}";
+		};
+	};
+	1F2772DF0F9EB398001084B0 /* GameScene.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {595, 574}}";
+			sepNavSelRange = "{373, 0}";
+			sepNavVisRange = "{0, 483}";
+		};
+	};
+	1F2772E50F9EB3F4001084B0 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 1F2772E10F9EB3D7001084B0 /* game.jpg */;
+	};
+	1F2772E80F9EB3F4001084B0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F2772DE0F9EB398001084B0 /* GameScene.h */;
+		name = "GameScene.h: 19";
+		rLen = 0;
+		rLoc = 274;
+		rType = 0;
+		vrLen = 274;
+		vrLoc = 0;
+	};
+	1F2772E90F9EB3F4001084B0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F2772DF0F9EB398001084B0 /* GameScene.m */;
+		name = "GameScene.m: 17";
+		rLen = 0;
+		rLoc = 373;
+		rType = 0;
+		vrLen = 483;
+		vrLoc = 141;
+	};
+	1F2772EA0F9EB3F4001084B0 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 1F2772E10F9EB3D7001084B0 /* game.jpg */;
+	};
+	1F2772F50F9EB4DC001084B0 /* Game.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = Game.m;
+		path = /Users/jeremypjoseph/Desktop/Skeleton/Classes/Game.m;
+		sourceTree = "<absolute>";
+	};
+	1F5AEAD60F9EB6DD00166B44 /* BattleSimulator.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {595, 406}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 485}";
+		};
+	};
+	1F5AEAE90F9EB7A700166B44 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* RagnarokRPGAppDelegate.m */;
+		name = "RagnarokRPGAppDelegate.m: 9";
+		rLen = 0;
+		rLoc = 181;
+		rType = 0;
+		vrLen = 624;
+		vrLoc = 92;
+	};
+	1F5AEAEA0F9EB7A700166B44 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* RagnarokRPGAppDelegate.h */;
+		name = "RagnarokRPGAppDelegate.h: 11";
+		rLen = 0;
+		rLoc = 220;
+		rType = 0;
+		vrLen = 303;
+		vrLoc = 0;
+	};
+	1F5AEAEB0F9EB7A700166B44 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F2772BB0F9EB1A0001084B0 /* MenuScene.h */;
+		name = "MenuScene.h: 19";
+		rLen = 0;
+		rLoc = 358;
+		rType = 0;
+		vrLen = 364;
+		vrLoc = 0;
+	};
+	1F5AEAEC0F9EB7A700166B44 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F2772DE0F9EB398001084B0 /* GameScene.h */;
+		name = "GameScene.h: 19";
+		rLen = 0;
+		rLoc = 274;
+		rType = 0;
+		vrLen = 274;
+		vrLoc = 0;
+	};
+	1F5AEAED0F9EB7A700166B44 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F2772DF0F9EB398001084B0 /* GameScene.m */;
+		name = "GameScene.m: 17";
+		rLen = 0;
+		rLoc = 373;
+		rType = 0;
+		vrLen = 483;
+		vrLoc = 0;
+	};
+	1F5AEAEE0F9EB7A700166B44 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F5AEAD60F9EB6DD00166B44 /* BattleSimulator.h */;
+		name = "BattleSimulator.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 485;
+		vrLoc = 0;
+	};
+	1F5AEAF00F9EB7A700166B44 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F2772BC0F9EB1A0001084B0 /* MenuScene.m */;
+		name = "MenuScene.m: 49";
+		rLen = 0;
+		rLoc = 3466;
+		rType = 0;
+		vrLen = 555;
+		vrLoc = 775;
+	};
+	1F5AEAF10F9EB7A700166B44 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F2772BB0F9EB1A0001084B0 /* MenuScene.h */;
+		name = "MenuScene.h: 19";
+		rLen = 0;
+		rLoc = 358;
+		rType = 0;
+		vrLen = 364;
+		vrLoc = 0;
+	};
+	1F5AEAF20F9EB7A700166B44 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* RagnarokRPGAppDelegate.h */;
+		name = "RagnarokRPGAppDelegate.h: 11";
+		rLen = 0;
+		rLoc = 220;
+		rType = 0;
+		vrLen = 303;
+		vrLoc = 0;
+	};
+	1F5AEAF30F9EB7A700166B44 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F2772BB0F9EB1A0001084B0 /* MenuScene.h */;
+		name = "MenuScene.h: 19";
+		rLen = 0;
+		rLoc = 358;
+		rType = 0;
+		vrLen = 364;
+		vrLoc = 0;
+	};
+	1F5AEAF40F9EB7A700166B44 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F2772BC0F9EB1A0001084B0 /* MenuScene.m */;
+		name = "MenuScene.m: 49";
+		rLen = 0;
+		rLoc = 3466;
+		rType = 0;
+		vrLen = 555;
+		vrLoc = 775;
+	};
+	1F5AEAF50F9EB7A700166B44 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* RagnarokRPGAppDelegate.m */;
+		name = "RagnarokRPGAppDelegate.m: 9";
+		rLen = 0;
+		rLoc = 181;
+		rType = 0;
+		vrLen = 624;
+		vrLoc = 92;
+	};
+	1F5AEAF60F9EB7A700166B44 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* RagnarokRPGAppDelegate.h */;
+		name = "RagnarokRPGAppDelegate.h: 11";
+		rLen = 0;
+		rLoc = 220;
+		rType = 0;
+		vrLen = 303;
+		vrLoc = 0;
+	};
+	1F5AEAF70F9EB7A700166B44 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* RagnarokRPGAppDelegate.m */;
+		name = "RagnarokRPGAppDelegate.m: 9";
+		rLen = 0;
+		rLoc = 181;
+		rType = 0;
+		vrLen = 624;
+		vrLoc = 92;
+	};
+	1F5AEAF80F9EB7A700166B44 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* RagnarokRPGAppDelegate.h */;
+		name = "RagnarokRPGAppDelegate.h: 11";
+		rLen = 0;
+		rLoc = 220;
+		rType = 0;
+		vrLen = 303;
+		vrLoc = 0;
+	};
+	1F5AEAF90F9EB7A700166B44 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F2772BC0F9EB1A0001084B0 /* MenuScene.m */;
+		name = "MenuScene.m: 49";
+		rLen = 0;
+		rLoc = 3466;
+		rType = 0;
+		vrLen = 555;
+		vrLoc = 775;
+	};
+	1F5AEAFA0F9EB7A700166B44 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F2772BB0F9EB1A0001084B0 /* MenuScene.h */;
+		name = "MenuScene.h: 19";
+		rLen = 0;
+		rLoc = 358;
+		rType = 0;
+		vrLen = 364;
+		vrLoc = 0;
+	};
+	1F5AEAFB0F9EB7A700166B44 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F2772DF0F9EB398001084B0 /* GameScene.m */;
+		name = "GameScene.m: 17";
+		rLen = 0;
+		rLoc = 373;
+		rType = 0;
+		vrLen = 483;
+		vrLoc = 141;
+	};
+	1F5AEAFC0F9EB7A700166B44 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F2772DE0F9EB398001084B0 /* GameScene.h */;
+		name = "GameScene.h: 19";
+		rLen = 0;
+		rLoc = 274;
+		rType = 0;
+		vrLen = 274;
+		vrLoc = 0;
+	};
+	1F5AEAFD0F9EB7A700166B44 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F2772DF0F9EB398001084B0 /* GameScene.m */;
+		name = "GameScene.m: 17";
+		rLen = 0;
+		rLoc = 373;
+		rType = 0;
+		vrLen = 483;
+		vrLoc = 0;
+	};
+	1F5AEAFE0F9EB7A700166B44 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F5AEAD60F9EB6DD00166B44 /* BattleSimulator.h */;
+		name = "BattleSimulator.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 485;
+		vrLoc = 0;
+	};
+	1F5AEB0A0F9EB7D500166B44 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F2772BC0F9EB1A0001084B0 /* MenuScene.m */;
+		name = "MenuScene.m: 9";
+		rLen = 0;
+		rLoc = 250;
+		rType = 0;
+		vrLen = 716;
+		vrLoc = 636;
+	};
+	1F5AEB100F9EB81400166B44 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F2772BC0F9EB1A0001084B0 /* MenuScene.m */;
+		name = "MenuScene.m: 49";
+		rLen = 0;
+		rLoc = 1273;
+		rType = 0;
+		vrLen = 674;
+		vrLoc = 1123;
+	};
+	1FBB213F0F9EB4FA0035BC43 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F2772F50F9EB4DC001084B0 /* Game.m */;
+		name = "Game.m: 7";
+		rLen = 0;
+		rLoc = 63;
+		rType = 0;
+		vrLen = 634;
+		vrLoc = 0;
+	};
+	1FBB21420F9EB4FA0035BC43 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F2772F50F9EB4DC001084B0 /* Game.m */;
+		name = "Game.m: 7";
+		rLen = 0;
+		rLoc = 63;
+		rType = 0;
+		vrLen = 634;
+		vrLoc = 0;
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 1F27719D0F9EAE98001084B0 /* RagnarokRPG */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* RagnarokRPG */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* RagnarokRPG */,
+		);
+		codeSenseManager = 1F2771AA0F9EAE9C001084B0 /* Code sense */;
+		executables = (
+			1F27719D0F9EAE98001084B0 /* RagnarokRPG */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					417,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					377,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 262060078;
+			PBXWorkspaceStateSaveDate = 262060078;
+		};
+		perUserProjectItems = {
+			1F2772B00F9EB0D9001084B0 = 1F2772B00F9EB0D9001084B0 /* PlistBookmark */;
+			1F2772B10F9EB0D9001084B0 = 1F2772B10F9EB0D9001084B0 /* PBXTextBookmark */;
+			1F2772B40F9EB0D9001084B0 = 1F2772B40F9EB0D9001084B0 /* PlistBookmark */;
+			1F2772B50F9EB0D9001084B0 = 1F2772B50F9EB0D9001084B0 /* PBXTextBookmark */;
+			1F2772B60F9EB0D9001084B0 = 1F2772B60F9EB0D9001084B0 /* PBXTextBookmark */;
+			1F2772C30F9EB200001084B0 = 1F2772C30F9EB200001084B0 /* PBXTextBookmark */;
+			1F2772C50F9EB200001084B0 = 1F2772C50F9EB200001084B0 /* PBXTextBookmark */;
+			1F2772C60F9EB200001084B0 = 1F2772C60F9EB200001084B0 /* PBXTextBookmark */;
+			1F2772D30F9EB2D9001084B0 = 1F2772D30F9EB2D9001084B0 /* PBXBookmark */;
+			1F2772DA0F9EB2D9001084B0 = 1F2772DA0F9EB2D9001084B0 /* PBXBookmark */;
+			1F2772E50F9EB3F4001084B0 = 1F2772E50F9EB3F4001084B0 /* PBXBookmark */;
+			1F2772E80F9EB3F4001084B0 = 1F2772E80F9EB3F4001084B0 /* PBXTextBookmark */;
+			1F2772E90F9EB3F4001084B0 = 1F2772E90F9EB3F4001084B0 /* PBXTextBookmark */;
+			1F2772EA0F9EB3F4001084B0 = 1F2772EA0F9EB3F4001084B0 /* PBXBookmark */;
+			1F5AEAE90F9EB7A700166B44 = 1F5AEAE90F9EB7A700166B44 /* PBXTextBookmark */;
+			1F5AEAEA0F9EB7A700166B44 = 1F5AEAEA0F9EB7A700166B44 /* PBXTextBookmark */;
+			1F5AEAEB0F9EB7A700166B44 = 1F5AEAEB0F9EB7A700166B44 /* PBXTextBookmark */;
+			1F5AEAEC0F9EB7A700166B44 = 1F5AEAEC0F9EB7A700166B44 /* PBXTextBookmark */;
+			1F5AEAED0F9EB7A700166B44 = 1F5AEAED0F9EB7A700166B44 /* PBXTextBookmark */;
+			1F5AEAEE0F9EB7A700166B44 = 1F5AEAEE0F9EB7A700166B44 /* PBXTextBookmark */;
+			1F5AEAF00F9EB7A700166B44 = 1F5AEAF00F9EB7A700166B44 /* PBXTextBookmark */;
+			1F5AEAF10F9EB7A700166B44 = 1F5AEAF10F9EB7A700166B44 /* PBXTextBookmark */;
+			1F5AEAF20F9EB7A700166B44 = 1F5AEAF20F9EB7A700166B44 /* PBXTextBookmark */;
+			1F5AEAF30F9EB7A700166B44 = 1F5AEAF30F9EB7A700166B44 /* PBXTextBookmark */;
+			1F5AEAF40F9EB7A700166B44 = 1F5AEAF40F9EB7A700166B44 /* PBXTextBookmark */;
+			1F5AEAF50F9EB7A700166B44 = 1F5AEAF50F9EB7A700166B44 /* PBXTextBookmark */;
+			1F5AEAF60F9EB7A700166B44 = 1F5AEAF60F9EB7A700166B44 /* PBXTextBookmark */;
+			1F5AEAF70F9EB7A700166B44 = 1F5AEAF70F9EB7A700166B44 /* PBXTextBookmark */;
+			1F5AEAF80F9EB7A700166B44 = 1F5AEAF80F9EB7A700166B44 /* PBXTextBookmark */;
+			1F5AEAF90F9EB7A700166B44 = 1F5AEAF90F9EB7A700166B44 /* PBXTextBookmark */;
+			1F5AEAFA0F9EB7A700166B44 = 1F5AEAFA0F9EB7A700166B44 /* PBXTextBookmark */;
+			1F5AEAFB0F9EB7A700166B44 = 1F5AEAFB0F9EB7A700166B44 /* PBXTextBookmark */;
+			1F5AEAFC0F9EB7A700166B44 = 1F5AEAFC0F9EB7A700166B44 /* PBXTextBookmark */;
+			1F5AEAFD0F9EB7A700166B44 = 1F5AEAFD0F9EB7A700166B44 /* PBXTextBookmark */;
+			1F5AEAFE0F9EB7A700166B44 = 1F5AEAFE0F9EB7A700166B44 /* PBXTextBookmark */;
+			1F5AEB0A0F9EB7D500166B44 = 1F5AEB0A0F9EB7D500166B44 /* PBXTextBookmark */;
+			1F5AEB100F9EB81400166B44 = 1F5AEB100F9EB81400166B44 /* PBXTextBookmark */;
+			1FBB213F0F9EB4FA0035BC43 = 1FBB213F0F9EB4FA0035BC43 /* PBXTextBookmark */;
+			1FBB21420F9EB4FA0035BC43 = 1FBB21420F9EB4FA0035BC43 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 1F2771A90F9EAE9C001084B0 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {595, 323}}";
+			sepNavSelRange = "{348, 0}";
+			sepNavVisRange = "{0, 387}";
+		};
+	};
+}
