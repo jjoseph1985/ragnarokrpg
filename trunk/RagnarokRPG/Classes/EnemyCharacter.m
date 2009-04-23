@@ -50,6 +50,11 @@
 	magicpower = mp;
 }
 
+- (void) setSpriteOnChar: (Sprite *) sp
+{
+	enemySprite = sp;
+}
+
 - (int) getHitpoints
 {
 	return hitpoints;
@@ -73,6 +78,11 @@
 - (int) getMagicPower
 {
 	return magicpower;
+}
+
+- (Sprite *) getEnemySprite
+{
+	return enemySprite;
 }
 
 @end
