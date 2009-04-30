@@ -23,6 +23,9 @@
 	
 	//Sprite version
 	Sprite *playerSprite;
+	
+	//name
+	NSString *charName;
 }
 
 - (void) initVariables;
@@ -33,12 +36,14 @@
 - (void) setDefense: (int) d;
 - (void) setMagicPower: (int) mp;
 - (void) setSpriteOnChar: (Sprite *) sp;
+- (void) setName: (NSString *) n;
 - (int) getHitpoints;
 - (int) getMana;
 - (int) getAttackPower;
 - (int) getDefense;
 - (int) getMagicPower;
 - (Sprite *) getPlayerSprite;
+- (NSString *) getName;
 
 
 @end

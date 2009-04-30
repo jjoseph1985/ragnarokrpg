@@ -54,6 +54,11 @@
 	playerSprite = sp;
 }
 
+- (void) setName: (NSString *) n
+{
+	charName = n;
+}
+
 - (int) getHitpoints
 {
 	return hitpoints;
@@ -84,4 +89,8 @@
 	return playerSprite;
 }
 
+- (NSString *) getName
+{
+	return charName;
+}
 @end
