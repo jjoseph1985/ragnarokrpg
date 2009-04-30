@@ -14,7 +14,7 @@
 	UIWindow *window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     [window setUserInteractionEnabled:YES];
     [window setMultipleTouchEnabled:YES];
-    [[Director sharedDirector] setLandscape: YES];
+    [[Director sharedDirector] setLandscape:NO];
     [[Director sharedDirector] attachInWindow:window];
 	
     [window makeKeyAndVisible];

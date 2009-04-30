@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "cocos2d.h"
-#import "GameScene.h"
+#import "CreateCharScene.h"
 
 @interface MenuScene : Scene {}
 @end

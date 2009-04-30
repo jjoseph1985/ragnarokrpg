@@ -11,12 +11,13 @@
 #import "CreatureGenerator.h"
 #import "BattleSimulator.h"
 
+
 @implementation MenuScene
 - (id) init {
     self = [super init];
     if (self != nil) {
         Sprite * bg = [Sprite spriteWithFile:@"menu.png"];
-        [bg setPosition:cpv(240, 160)];
+        [bg setPosition:cpv(160, 240)];
         [self addChild:bg z:0];
         [self addChild:[MenuLayer node] z:1];
     }
@@ -43,8 +44,9 @@
     return self;
 }
 -(void)startGame: (id)sender {
-    GameScene * gs = [GameScene node];
-    [[Director sharedDirector] replaceScene:gs];
+    //GameScene * gs = [GameScene node];
+    CreateCharScene * ccs = [CreateCharScene node];
+	[[Director sharedDirector] replaceScene:ccs];
 	
 //	int count = 0;
 //	while(count < 5){
