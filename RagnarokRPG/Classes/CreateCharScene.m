@@ -14,30 +14,32 @@ static const ccRGBB ccRED ={255,0,0};
 - (id) init {
     self = [super init];
     if (self != nil) {
-        Sprite * bg = [Sprite spriteWithFile:@"fire.jpg"];
+        Sprite * bg = [Sprite spriteWithFile:@"char.jpg"];
         [bg setPosition:cpv(160, 240)];
         [self addChild:bg z:0];
 		
 		//create button 
-        [MenuItemFont setFontSize:24]; 
-		[MenuItemFont setFontName:@"Helvetica"]; 
+        [MenuItemFont setFontSize:18]; 
+		[MenuItemFont setFontName:@"Zapfino"]; 
+		MenuItem *label = [MenuItemFont itemFromString:@"Create your character."]; 
+		[((MenuItemFont *)label).label setRGB:0 :0 :0];
         MenuItem *back  = [MenuItemFont itemFromString:@"Done" 
 												target:self 
 											  selector:@selector(tapBack:)]; 
-        Menu *menu = [Menu menuWithItems:back, nil]; 
+		[((MenuItemFont *)back).label setRGB:0 :0 :0];
+
+        Menu *menu = [Menu menuWithItems:label, back, nil]; 
 		[menu alignItemsVertically]; 
 		[self addChild:menu]; 
         [back setPosition: cpv(160,20)]; 
+		[label setPosition:cpv(160,420)];
         [menu setPosition: cpv(0,0)]; 
-		
-		Label* l = [Label labelWithString:@"Enter character name:" fontName:@"Helvetica" fontSize:20];
-		[l setPosition:CGPointMake(160,450)];
-		[self addChild:l z:1];
-		charName = l;
-		
-		UITextField *field = [[UITextField alloc]initWithFrame:CGRectMake(60, 50, 200, 20)];
-		field.backgroundColor = [UIColor whiteColor];
-		field.textAlignment = UITextAlignmentLeft;
+			
+		UITextField *field = [[UITextField alloc]initWithFrame:CGRectMake(60, 80, 200, 20)];
+		field.backgroundColor = [UIColor clearColor];
+		field.textAlignment = UITextAlignmentCenter;
+		field.placeholder = @"Enter character name.";
+		field.textColor = [UIColor blackColor];
 		field.delegate = self;
 		[[[Director sharedDirector] openGLView]addSubview: field];
 		charNameField = field; 
