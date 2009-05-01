@@ -35,12 +35,14 @@ static const ccRGBB ccRED ={255,0,0};
 		[label setPosition:cpv(160,420)];
         [menu setPosition: cpv(0,0)]; 
 			
-		UITextField *field = [[UITextField alloc]initWithFrame:CGRectMake(60, 80, 200, 20)];
+		UITextField *field = [[UITextField alloc]initWithFrame:CGRectMake(60, 80, 200, 30)];
 		field.backgroundColor = [UIColor clearColor];
 		field.textAlignment = UITextAlignmentCenter;
-		field.placeholder = @"Enter character name.";
+		field.text = @"Enter character name.";
+		field.font = [UIFont fontWithName:@"Zapfino" size:12];
 		field.textColor = [UIColor blackColor];
 		field.delegate = self;
+		field.clearsOnBeginEditing = TRUE;
 		[[[Director sharedDirector] openGLView]addSubview: field];
 		charNameField = field; 
     }
@@ -53,14 +55,21 @@ static const ccRGBB ccRED ={255,0,0};
     [[Director sharedDirector] replaceScene:ms];
 }
 
-- (BOOL)textFieldShouldReturn:(UITextField *)theTextField { 
+- (void)textFieldShouldReturn:(UITextField *)theTextField { 
 	if (theTextField == charNameField) 
 	{ 
 		charNameString = charNameField.text;
 		NSLog(charNameString);
 		[charNameField resignFirstResponder]; 
-	} 
+	}
 } 
+
+//- (void)textDidBeginEditing:(NSNotification *)aNotification{
+//	UITextField *tf = [aNotification object];
+//	if(tf == charNameField){
+//		}
+//	
+//}
 
 -(void) dealloc 
 { 
